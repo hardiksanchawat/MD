@@ -50,7 +50,7 @@ def webhook():
     r.headers['Content-Type'] = 'application/json'
     return r
 def makeYqlQuery(req):
-    if req.get("result").get("action") != "MedicalDisease":
+    if req.get("result").get("action") != "AHepatitisHepatitisA":
         return {}
     result = req.get("result")
     query = result.get("resolvedQuery")
