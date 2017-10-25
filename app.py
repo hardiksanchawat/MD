@@ -71,7 +71,7 @@ def makeYqlQuery(req):
         "displayText": speech,
         # "data": data,
         # "contextOut": [],
-        "source": "apiai-weather-webhook-sample"
+        "source": "medical"
     }
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
